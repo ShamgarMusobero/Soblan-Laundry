@@ -1,0 +1,139 @@
+.team-section {
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+section {
+    display: block;
+}
+body {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color: #777;
+    background: #f7f7f7;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 300;
+    text-shadow: none;
+}
+clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+.team-member .team-bio {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 89%;
+    left: 40px;
+    right: 70px;
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: rgba(91, 223, 48, 0.5);
+    padding: 0 20px 20px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -moz-background-clip: border;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    z-index: 1;
+}
+div {
+    display: block;
+}
+.team-member:hover .team-bio {
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    opacity: 1;
+   
+}
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.align-center {
+    text-align: center;
+    padding-top: 50px;
+}
+0% {
+    opacity: 0;
+    transform: scale(.3);
+}
+50% {
+    opacity: 1;
+    transform: scale(1.05);
+}
+70% {
+    transform: scale(.9);
+}
+100% {
+    transform: scale(1);
+}
+
+
+.bounceIn {
+    
+    animation-name: bounceIn;
+}
+.animated {
+ 
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.bounceIn {
+    
+    animation-name: bounceIn;
+}
+.animated {
+    
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.align-center {
+    text-align: center;
+    padding-top: 50px;
+}
+.team-section {
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+p {
+    margin: 0 0 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
